@@ -1,0 +1,8 @@
+
+.Display{
+    display: flex;
+}
+
+.weather-item{
+    display: flex;
+}
