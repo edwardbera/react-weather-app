@@ -1,6 +1,7 @@
 import React, { Component, Suspense } from 'react';
 import axios from 'axios';
 import Display from './Display.js';
+import './Form.css';
 
 export default function Form(){
     const [weather, setWeather] = React.useState({});
@@ -39,7 +40,7 @@ export default function Form(){
             </Suspense>
 
              <div className='Form'>
-
+                <label>Enter The City</label>
                 <input  onChange={handleChange} className='cityName' ></input> 
                 <button onClick={handleButton}>GO</button>
 

@@ -1,8 +1,12 @@
 
-.Display{
-    display: flex;
+button{
+    border-radius: 0;
+    width: 80px;
+    box-shadow: none;
+    background-color: white;
 }
 
-.weather-item{
-    display: flex;
+label{
+    font-size: medium;
+    margin-right: 5px;
 }
